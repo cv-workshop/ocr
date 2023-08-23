@@ -22,6 +22,9 @@ def create_crop_data(args):
 if __name__ == "__main__":
     """
     Usage
+        取得data_train資料夾內所有txt的數字、字母、符號
+        python get_char_label.py --txt_dir data_train
+        取得data_test資料夾內所有txt的數字、字母、符號
         python get_char_label.py --txt_dir data_train
     """
     

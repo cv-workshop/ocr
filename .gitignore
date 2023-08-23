@@ -255,3 +255,14 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+# ICDAR2019 datasets
+/SROIE2019/
+
+# task 1 - CRNN
+/task1/data_train/
+/task1/data_test/
+
+# task 2 - YOLOv5做文字檢測
+/task2/datasets/ocr/
+/task2/runs/

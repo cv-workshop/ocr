@@ -52,7 +52,7 @@ def main(args):
 if __name__ == "__main__":
     """
     Usage
-        將ICDAR2019 train data轉換成YOLOv5的格式
+        將ICDAR2019 train data轉換成YOLO格式
         python icdar2019_to_yolo.py --icdar_dir "../SROIE2019/0325updated.task1train(626p)" --image_dir datasets/ocr/images/train2017 --label_dir datasets/ocr/labels/train2017
     """
     

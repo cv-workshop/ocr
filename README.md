@@ -61,9 +61,10 @@ python inference.py --nosave --save-txt --conf-thres {conf-thres} --iou-thres {i
 ```
 
 ## Results
-<div align="center">
-  <div style="display: flex;">
-    <img style="width: 50%" src="./Media/X51008030560.jpg"/>
-    <img style="width: 50%" src="./Media/X51008030560_result.jpg"/>
-  </div>
-</div>
+<table>
+  <tr>
+    <td valign="top"><img src="./Media/X51008030560.jpg"/></td>
+    <td valign="top"><img src="./Media/X51008030560_result.jpg"/></td>
+  </tr>
+</table>
+

@@ -1,5 +1,5 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
+# *.jpg
 *.jpeg
 *.png
 *.bmp
@@ -266,6 +266,8 @@ fabric.properties
 # Task2 - 訓練YOLOv5s6做文字檢測
 /task2/datasets/ocr/
 /task2/runs/
+/task2/data/images/*.jpg
 
 # Task3 - 將Task2的YOLOv5s6 + Task1的CRNN做inference
 /task3/runs/
+/task3/data/images/*.jpg

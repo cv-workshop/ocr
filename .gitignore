@@ -259,10 +259,13 @@ fabric.properties
 # ICDAR2019 datasets
 /SROIE2019/
 
-# task 1 - CRNN
+# Task1 - 訓練CRNN
 /task1/data_train/
 /task1/data_test/
 
-# task 2 - YOLOv5做文字檢測
+# Task2 - 訓練YOLOv5s6做文字檢測
 /task2/datasets/ocr/
 /task2/runs/
+
+# Task3 - 將Task2的YOLOv5s6 + Task1的CRNN做inference
+/task3/runs/

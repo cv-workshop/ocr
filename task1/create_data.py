@@ -57,9 +57,9 @@ if __name__ == "__main__":
     """
     Usage
         將ICDAR2019原始train data進行前處理:
-            python create_data.py --save_dir data_train --jpg_dir "../SROIE2019/0325updated.task1train(626p)/" --txt_dir "../SROIE2019/0325updated.task1train(626p)/"
+        python create_data.py --save_dir data_train --jpg_dir "../SROIE2019/0325updated.task1train(626p)/" --txt_dir "../SROIE2019/0325updated.task1train(626p)/"
         將ICDAR2019原始test data進行前處理:
-            python create_data.py --save_dir data_test --jpg_dir "../SROIE2019/task1_2_test(361p)/" --txt_dir "../SROIE2019/text_task1_2_test(361p)/" 
+        python create_data.py --save_dir data_test --jpg_dir "../SROIE2019/task1_2_test(361p)/" --txt_dir "../SROIE2019/text_task1_2_test(361p)/" 
     """
     
     parser = argparse.ArgumentParser()

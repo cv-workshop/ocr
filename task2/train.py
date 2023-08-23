@@ -643,5 +643,11 @@ def run(**kwargs):
 
 
 if __name__ == '__main__':
+    """
+    Usage
+        使用YOLOv5s6訓練文字檢測模型
+        python train.py --data icdar2019.yaml --weights yolov5s6.pt --img 1280 --epochs 500 --hyp hyp.scratch-low.yaml
+    """
+    
     opt = parse_opt()
     main(opt)
